@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins:wght@500&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600&display=swap');
+   :root{
+   --font: 'Poppins', sans-serif;
+   }
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    
+    font-family: var(--font);
+}
+html{
+  scroll-behavior: smooth;
+}
+html,body{
+  max-width: 100%;
+  overflow-x: hidden;
+  }
+ 
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-1{
+   padding-top: 1rem;
+   background-image:url("assets/dishes-background-set-on-dining-260nw-1572976891.webp");
+   padding: 0.75rem;
+   padding-bottom:1.5rem ; 
+  
+   
+   width: 100%;
+
+   
+}
+.in{
+    border-radius: 10px;
+    height: 2rem;
+    width: 40%;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    border-color:black;
+    padding-left: 1rem;
+   
+    box-shadow: 3px 3px 0px  rgb(75, 71, 71,0.5);
+   
+}
+.in:hover{
+  border-color:black;
+}
+.c1{
+ 
+   
+    background-color: orangered;
+    color: white;
+    padding: 1rem;
+    font-size: 220%;
+    font-style: var(--font);
+    display: flex;
+    gap: 0.5rem;
+    border-radius: 10px;
+}
+.SB{
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0,0.3);
+    box-shadow: 2px 2px 0px  rgb(75, 71, 71,0.3);
+    color: white;
+    background-color: orangered;
+}
+@media (max-width:1264px) {
+    .container-1{
+   
+       display: flex;
+       flex-direction: column;
+       
+    }
+   .int{
+    width: 100%;
+   }
+   .c1{
+    font-size: 200%;
+   }
+  } 
+  .con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+  }
+  
+  .container{
+  
+    display: flex;
+    
+    align-content: center;
+    justify-content: space-between;
+    
+    padding: 2rem;
+    
+    
+  }
+  
+  .col2{
+    border: solid;
+    padding: 1rem;
+    border-color:orangered;
+   
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: 0 3px 3px rgb(0, 0, 0,0.3);
+
+  }
+  .ch{
+    margin-top: 0.5rem;
+  }
+  .bc{
+    margin-top: 1.5rem;
+    padding: 0.25rem;
+   border-radius: 10px;
+    color: white;
+    width: 100%;
+    background-color: orangered;
+  }
+  
+  .im{
+    width:200px;
+    border-radius: 10px;
+  }
+
+
+  
+  .warn1{
+    text-align: center; 
+    margin-top: 3rem;
+   
+  }
+  .warn2{
+    text-align: center; 
+    margin-top: 3rem;
+    
+  }
+  .warn3{
+    text-align: center; 
+    margin-top: 3rem;
+   
+  }
+  
+  
+  @media (max-width:1264px){
+    .container-1{
+      justify-content: center;
+    }
+    
+   
+  }
+#res{
+  position: fixed;
+  background-color: orangered;
+  top: 7.5%;
+  overflow-y:scroll;
+  margin-right: 10rem;
+  margin-left: 10rem;
+  background-color: orangered;
+  
+   bottom: 7.5%;
+  align-items: center;
+  border-radius: 15px;
+  
+}
+#res::-webkit-scrollbar-thumb{
+background: white;
+border-radius: 15px;
+}
+
+.bak{
+    position: absolute;
+    border: solid;
+    border-color: black;
+    margin: 0.5rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 60px;
+    background-color: orangered;
+    color: white;
+   top: 0px;
+  
+   margin-right: 90%;
+
+}
+.mm{
+  width: 150px;
+  border-radius: 10px;
+}
+
+.rcon{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    
+}
+.rn{
+  margin-top: 2rem;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+.int{
+  margin-top: 1rem;
+  color: white;
+  text-align: center;
+}
+.par{
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white;
+}
+.ac{
+  margin-top:0.5rem;
+  margin-bottom: 0.75rem;
+  color: white;
+  padding: 0.25rem;
+}
+.ac:hover{
+  color: white;
+}
+@media (max-width:1264px){
+  #res{
+    margin: 0.5rem;
+    top:5%;
+  }
+  .rcom{
+    padding: 1rem;
+  }
+}
