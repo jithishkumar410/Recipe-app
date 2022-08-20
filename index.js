@@ -41,7 +41,7 @@ document.querySelector(".warn1").innerHTML='<div class="warn2"><h1><i class="fa-
        ml+=
        ' <div data-aos="fade-right" data-aos-delay="'+a+'" id="'+dat.idMeal+'"class="container"><div class="col2"><img class="im" src="'+dat.strMealThumb+'" alt=""><div class="he"><h5 class="ch">'+dat.strMeal+'</h5></div> <a href="#res" ><button class="bc" type="button" onclick="res('+dat.idMeal+')" >Get Recipe</button> </a> </div></div>'
       c.innerHTML=ml
-        a=a+70;
+        a=a+50;
         });
        
     }
@@ -75,7 +75,7 @@ function res(d){
         let jl=''
         da.meals.forEach(dat =>{
           
-            jl+='<div data-aos="fade-up" data-aos-duration:"2200" id="res"><main class="rcon"><a onclick="rem()" class="bak"><i class="fa-solid fa-house"></i></a><h1 class="rn">'+dat.strMeal+'</h1><img class="mm" src="'+dat.strMealThumb+'" alt=""><h3 class="int">Instruction</h3><p class="par">'+dat.strInstructions+'</p><a target="_blank" class="ac" href="'+dat.strYoutube+'"><i class="fa-brands fa-youtube"></i> Watch Now</a></main></div>'
+            jl+='<div data-aos="fade-up" data-aos-duration:"1200" id="res"><main class="rcon"><a onclick="rem()" class="bak"><i class="fa-solid fa-house"></i></a><h1 class="rn">'+dat.strMeal+'</h1><img class="mm" src="'+dat.strMealThumb+'" alt=""><h3 class="int">Instruction</h3><p class="par">'+dat.strInstructions+'</p><a target="_blank" class="ac" href="'+dat.strYoutube+'"><i class="fa-brands fa-youtube"></i> Watch Now</a></main></div>'
             
             document.querySelector(".co").innerHTML=jl;
             
