@@ -12,7 +12,7 @@ if(b.value != ""){
    c.innerHTML=ml;
 }
 else{
-    document.querySelector(".warn1").innerHTML='<h1><i class="fa-solid fa-typewriter"></i>Enter any recipe or incredents.....</h1>' ;
+    document.querySelector(".warn1").innerHTML='<h1><i class="fa-solid fa-typewriter"></i>Enter any incredents.....</h1>' ;
 }
 }
 
